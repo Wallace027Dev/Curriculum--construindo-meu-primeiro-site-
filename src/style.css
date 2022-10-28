@@ -139,7 +139,7 @@ h2{
     }
 
     .project-image{
-        width: 38rem;
+        width: 32rem;
         height: auto;
     }
     
@@ -154,7 +154,7 @@ h2{
     }
 
     .skills{
-        width: 5rem;
+        width: 3rem;
         margin: 1rem 1rem;
     }
 }

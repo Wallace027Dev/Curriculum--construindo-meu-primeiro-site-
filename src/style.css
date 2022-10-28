@@ -45,11 +45,16 @@ h2{
     display: flex;
     justify-content: flex-end;
     gap: 1rem;
+    font-size: 1.8rem;
 }
 
 .nav-links a{
     color: #FFFFFF;
     text-decoration: none;
+}
+
+.main{
+    margin-bottom: 5rem;
 }
 
 .avatar{
@@ -103,10 +108,22 @@ h2{
     width: 2rem;
 }
 
+.skills-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills{
+    width: 5rem;
+    margin: 1rem 3rem;
+}
+
 @media(max-width: 1200px){
     .itens-center{
         flex-direction: column;
     }
+
     footer, section{
         padding: 5rem;
     }
@@ -117,6 +134,8 @@ h2{
 
     .main-title{
         font-size: 3rem;
+        display: flex;
+        justify-content: center;
     }
 
     .project-image{
@@ -133,4 +152,8 @@ h2{
         width: 18rem;
         height: 18rem;
     }
+
+    .skills{
+        width: 5rem;
+        margin: 1rem 1rem;
 }
